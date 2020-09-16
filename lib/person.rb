@@ -50,6 +50,17 @@ class Person
     return "all about the benjamins"
   end
 
+  def take_bath
+    self.hygiene += 4
+    return "♪ Rub-a-dub just relaxing in the tub ♫"
+  end
+
+  def work_out
+    self.happiness += 2
+    self.hygiene -= 3
+    return "♪ another one bites the dust ♫"
+  end
+
 end
 
   
